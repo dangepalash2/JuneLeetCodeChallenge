@@ -1,5 +1,7 @@
 n =32
-for i in range(0,n): 
-    y = n/pow(n,i)
-
-print(y)
+while(n%2==0): 
+    n=n/2
+if(n==1):
+    print(True)
+else:
+    print(False)
